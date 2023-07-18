@@ -1,0 +1,107 @@
+body
+{
+  background: rgb(36, 35, 35);
+font-size:x-large;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover
+{
+  background: rgb(3, 3, 3);
+  color:aqua;
+}
+.slide-head {
+
+  font-size: 5ch;
+  color: rgb(246, 174, 119);
+}
+
+.slide-para {
+  color: rgb(183, 243, 247);
+}
+
+.heading {
+  align-items: center;
+  background: rgb(10, 10, 10);
+ 
+}
+
+.card-header {
+  color: black;
+}
+.carousel carousel-dark slide
+{
+  height: 100rem;
+
+}
+
+.btn btn-primary
+{
+  margin-left: 2rem;
+}
+.navbar
+{
+  padding: 5px;
+}
+.btn-outline-primary
+{
+  /* padding:; */
+  margin: 5px;
+  margin-left: 8px;
+  --bs-btn-color: #dc3545;
+    --bs-btn-border-color: #0a0a09;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8bf0e9;
+    --bs-btn-hover-border-color: #61e93c;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #deef85;
+    --bs-btn-active-border-color: #141413;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #b3efea;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ed5ec1;
+    --bs-gradient: none;
+}
+.navbar-toggler-icon
+{
+  background-color: rgb(99, 206, 27);
+}
+.navbar
+{
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-color: rgba(183, 225, 31, 0.55);
+  --bs-navbar-hover-color: rgba(156, 212, 33, 0.7);
+  --bs-navbar-disabled-color: rgba(92, 227, 30, 0.3);
+  --bs-navbar-active-color: rgba(88, 220, 12, 0.9);
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: rgba(118, 4, 4, 0.9);
+  --bs-navbar-brand-hover-color: rgba(138, 171, 21, 0.9);
+}
+.btn-outline-success
+{
+  --bs-btn-hover-bg:rgb(194, 194, 37);
+  
+
+}
+.navbar li a{
+  text-decoration: none;
+}
+.btn-outline-success a
+{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(90, 177, 14);
+    font-size:larger;
+}
+.btn-outline-primary H6
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(90, 177, 14);
+    font-size:larger;
+}
+.btn-btn-warning{
+  text-decoration: none;
+}

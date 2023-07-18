@@ -1,0 +1,22 @@
+.di{
+    background: linear-gradient(to left top, #efdfd2, rgb(255, 255, 255));
+}
+.gift_div{
+    display: flex;
+    flex-direction: row;
+        /* margin: auto; */
+
+
+}
+.clearfix
+{
+    margin-top: 10%;
+    padding: 3%;
+    border-style:double ;
+    border-color:royalblue ;
+    background: #000;
+}
+.cont-1
+{
+    text-align: center;
+}

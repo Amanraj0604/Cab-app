@@ -1,0 +1,65 @@
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: hidden;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="email"], select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: hidden;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .design {
+    border-radius: 5px;
+    background-color: #151512;
+    padding: 20px;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #e5f355;
+    color: rgb(21, 20, 20);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .boxes
+  {
+    margin: 2px;
+    border-style:double;
+    border-color: yellow;
+    margin-top: 5rem;
+    width: 70ch;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    margin-left: 50rem;
+    margin-bottom: 5rem;
+
+  }
+  
+  @media (max-width: 200px) {
+    .boxes{
+      display: grid;
+      /* grid-template-columns: repeat(1, minmax(200px, 500px)); */
+      /* grid-gap: 50px; */
+      border-left:50px ;
+      justify-content: space-around;
+    }
+  }
+  .pad
+  {
+    padding-top: 50rem;
+  }
